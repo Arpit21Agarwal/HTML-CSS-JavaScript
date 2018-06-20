@@ -1,0 +1,81 @@
+<html>
+<head>
+<title>
+Metagurukul Account Registration
+</title>
+</head>
+<body>
+<p align="right">Help</p><br>
+<h1>Metagurukul Account Registration.</h1>
+<hr noshade>
+<table>
+<tr>
+<td>Name</td>
+<td><form><input type=textbox placeholder="First Name"></form></td>
+<td><form><input type=textbox placeholder="Last Name"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><select><option>- Select One-</option></select>
+</tr>
+<tr>
+<td>Birthday</td>
+<td><select><option>- Select Month -</option></select></td>
+<td><form><input type=number max=2 placeholder="Day"></td>
+<td><form><input type=number max=4 placeholder="Year"></td>
+</tr>
+<tr>
+<td>Country</td>
+<td colspan=4><select><option>India</option></select></td>
+</tr>
+</table>
+<br><br>
+<b>Select an ID and password</b><hr>
+<table>
+<tr>
+<td>Metagurukul ID</td>
+<td><form><input type=textbox></td>
+<td>@</td>
+<td><select><option>metagurukul.com</option></select></td>
+<td><button>Check</button></td>
+</tr>
+<tr>
+<td>Password</td>
+<td colspan=3><form><input type=password size=30></td>
+<td><meter>Password Strength meter</meter></td>
+</tr>
+<tr>
+<td>Retype Password</td>
+<td colspan=3><form><input type=password size=30></td>
+</tr>
+</table>
+<br><br>
+<b>In case you forget your ID or password...</b><hr>
+<table>
+<tr>
+<td>Alternate Email(optional)</td>
+<td><form><input email=textbox></td>
+</tr>
+<tr>
+<td>Secret Question 1</td>
+<td><select><option>- Select One -</option></select></td>
+</tr>
+<tr>
+<td>Your Answer</td>
+<td><form><input type=textbox></td>
+</tr>
+<tr>
+<td>Secret Question 2</td>
+<td><select><option>- Select One -</option></select></td>
+</tr>
+<tr>
+<td>Your Answer</td>
+<td><form><input type=textbox></td>
+</tr>
+</table>
+<br><br><hr>
+<center>
+<input type=submit value="Create my account">
+</center>
+</body>
+</html>
