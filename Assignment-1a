@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>
+Assignment 1
+</title>
+<style>
+ul#menu
+{
+list-style-type: none;
+margin: 10px;
+padding: 1px;
+}
+ul#menu li
+{
+float:right;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<ul id="menu">
+<img src="H:\Internship\Week 1\HTML-5_Logo.png" height=100 width=100 style=float:left>
+<li><a href=contact.htm>Contact</a></li>
+<li><a href=gallery.htm>Gallery</a></li>
+<li><a href=product.htm>Product</a></li>
+<li><a href=about.htm>About</a></li>
+<li><a href=home.htm>Home</a></li>
+</ul>
+<br><br><br><br><br><br>
+<hr>
+<br><br><br><br>
+<center>
+<img src="H:\Internship\Week 1\HTML5.jpg">
+<br><br><br><br><br><br>
+<font face=verdana size=12><b>What we work?</b></font>
+<br><br><br>
+<p style=font-size:30;>
+By itself, HTML focuses on presenting static documents, meaning text, links and little else.
+Through HTML 4, the HTML standard was one in the same with the HTML syntax used to accomplish this objective.
+The HTML5 standard has a much broader goal to describe the content, styling and application interfaces behind a Web page when it's loaded in your browser.
+More specifically, HTML5 establishes a single syntax for interacting with all the elements that Web page has loaded into your computer's memory.
+There's a potential point of confusion we should clarify about the term "HTML5" before we go on.
+There is a new version of the markup language itself called HTML5.
+However, that language is just one part of the broader standard that shares the name HTML5.
+This article is covering all the components of the HTML5 standard, of which the HTML5 language is a centerpiece.
+</p>
+<br><br><br>
+<font face=verdana size=12><b>How it works?</b></font>
+</center>
+<br><br><br>
+<font face=Times New Roman size=4>
+<pre><img src="H:\Internship\Week 1\HTML-5_Logo.png" height=100 width=100 style=float:top><h2>Name 1</h2>
+HTML5 includes detailed processing models to encourage
+more interoperable implementations; it extends, improves
+and rationalizes the markup available for documents, and
+introduces markup and application programming interfaces
+(APIs) for complex web applications.</pre>
+<center><img src="H:\Internship\Week 1\HTML-5_Logo.png" height=100 width=100 style=float:top><h2>Name 2</h2></center>
+<pre align=center>HTML5 includes detailed processing models to encourage
+more interoperable implementations; it extends, improves
+and rationalizes the markup available for documents, and
+introduces markup and application programming interfaces
+(APIs) for complex web applications.</pre>
+<img src="H:\Internship\Week 1\HTML-5_Logo.png" height=100 width=100 align="right" style=float:top>
+<br><br><br><br><br>
+<h2 align=right>Name 3</h2>
+<pre align=right>HTML5 includes detailed processing models to encourage
+more interoperable implementations; it extends, improves
+and rationalizes the markup available for documents, and
+introduces markup and application programming interfaces
+(APIs) for complex web applications.</pre>
+</font>
+<br><br><br>
+<hr>
+<p align=center>Copyright 2016-17|All Rights Reserved|Metacube Training
+</body>
+</html>
