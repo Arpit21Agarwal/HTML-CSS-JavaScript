@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>
+Assignment 2
+</title>
+</head>
+<body>
+<center>
+<H1>Create Your Account</H1>
+<table>
+<tr>
+<td><font color=red>*Email Id : </font></td>
+<td><form><input type=email style=background-color:pink></td>
+</tr>
+<tr>
+<td></td>
+<td><font size=2 color=grey>Enter your email address.</td>
+</tr>
+<tr>
+<td></td>
+<td><font size=2 color=red>Please specify your Email ID.</td>
+</tr>
+<tr>
+<td>*Password : </td>
+<td><form><input type=password></td>
+</tr>
+<tr>
+<td>*Confirm Password : </td>
+<td><form><input type=password></td>
+</tr>
+</table>
+<hr>
+<H1>Contact Details</H1>This is where the recruiters and employers will contact you for jobs.<br><br>
+<table>
+<tr>
+<td>Your Name : </td>
+<td><form><input type=text></td>
+</tr>
+<tr>
+<td>*Current Location : </td>
+<td><form><select><option>Select</option></select></td>
+<td><form><input type=checkbox>Not from India</td>
+</tr>
+<tr>
+<td>*Mobile : </td>
+<td><form><input type=tel></td>
+</tr>
+<tr>
+<td></td>
+<td><font size=2>If you don't have a mobile, enter <a href=ladline.htm>Landline no.</a></td>
+</table>
+<hr>
+<H1>Current Professional Details</H1>
+<table>
+<tr>
+<td><font color=red>*Total Experience : </font></td>
+<td><form><select style=background-color:pink><option>Select</option></select></td>
+<td>Years</td>
+<td><form><select style=background-color:pink><option>Select</option></select></td>
+<td>Months</td>
+</tr>
+<tr>
+<td></td>
+<td colspan=4><font color=red size=2>Please select your total experince</td>
+</tr>
+<tr>
+<td>*Current Industry : </td>
+<td><form><select><option>Select</option></select></td>
+</tr>
+<tr>
+<td>*Functional Area : </td>
+<td><form><selectk><option>Select</option></select></td>
+</tr>
+<tr>
+<td></td>
+<td colspan=4><font size=2><a href=info.htm>What is my Functional Area and Industry</a></td>
+</tr>
+<tr>
+<td>*Key Skills : </td>
+<td colspan=4><form><textarea placeholder="Please Enter the area of Expertise/Specialization" cols=50 rows=5></textarea></td>
+</tr>
+<tr>
+<td>*Resume Headline : </td>
+<td colspan=4><form><input type=textbox size=50 placeholder="Describe your Professional Background in one line" maxlength=250></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td><font color=grey size=2>Max. 250 characters</font></td>
+</tr>
+</table>
+<hr>
+<H1>Education Details</H1>Please list your areas of study.<br><br>
+<table>
+<tr>
+<td><font color=red>*Basic/Graduation : </font></td>
+<td><form><select style=background-color:pink><option>Select</option></select></td>
+</tr>
+<tr>
+<td></td>
+<td><font color=red size=2>Please select your basic course.</font></td>
+</tr>
+<tr>
+<td>Post Graduation : </td>
+<td><form><select><option>Select</option></select></td>
+</tr>
+<tr>
+<td>Doctorate/PHD : </td>
+<td><form><select><option>Select</option></select></td>
+</tr>
+</table>
+<hr>
+<H1>Upload Resume</H1>Please upload a detailed resume.<br><br>
+<table>
+<tr>
+<td>Attach Resume : </td>
+<td><form><input type=file></button></td>
+</tr>
+<tr>
+<td></td>
+<td colspan=2><font size=2 color=grey>Supported Formats : doc,docx,rtf. Max file size : 5mb</font></td>
+</tr>
+</table>
+<hr>
+<H1>Mailer and Privacy Settings</H1>
+<table>
+<tr>
+<td><form><input type=checkbox>Job Alerts</td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td><form><input type=checkbox>Important Notifications</td>
+</tr>
+<tr>
+<td><form><input type=checkbox>Naukri fast forward Emails</td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td><form><input type=checkbox>Communication from clients(Voice/Calls/SMS)</td>
+</tr>
+<tr>
+<td><form><input type=checkbox>Naukri fast forward Calls/SMS</td>
+<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+<td><form><input type=checkbox>Other Promotions/Special Offers</td>
+</tr>
+</table>
+<hr>
+<table>
+<tr>
+<td><form><input type=checkbox>I have read and understood and agree to the <a href=terms.htm>Terms and Conditions</a> governing the use</font></td>
+</tr>
+<table>
+<br><br>
+<input type=submit value="Create my account">
+</center>
+</body>
+</html>
