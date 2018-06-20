@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>
+Assignment 1
+</title>
+<style>
+ul#menu
+{
+list-style-type: none;
+margin: 10px;
+padding: 1px;
+}
+ul#menu li
+{
+float:right;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<ul id="menu">
+<img src="H:\Internship\Week 1\HTML-5_Logo.png" height=100 width=100 style=float:left>
+<li><a href=contact.htm>Contact</a></li>
+<li><a href=gallery.htm>Gallery</a></li>
+<li><a href=product.htm>Product</a></li>
+<li><a href=about.htm>About</a></li>
+<li><a href=home.htm>Home</a></li>
+</ul>
+<br><br><br><br><br><br>
+<hr>
+<br><br><br><br>
+<center>
+<img src="H:\Internship\Week 1\contact_us_banner1.jpg" height=300 width=750>
+<br><br><br>
+<form>
+Name <input type=text name = firstname><br><br>
+Email <input type=text name = Email><br><br>
+City <select name=city><option value=jai>Jaipur</option><option value=del>Delhi</option><option value=mum>Mumbai</option><option value=che>Chennai</option></select><br><br>
+Organisation Name <input type=text name = OrganisationName><br><br>
+Phone Number <input type=text name = PhoneNumber><br><br>
+Message <textarea name=message rows=7 cols=30></textarea>
+<br><br>
+<hr>
+<p align=center>Copyright 2016-17|All Rights Reserved|Metacube Training
+</body>
+</html>
