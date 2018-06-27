@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Assignment 4</title>
+		<style>
+			.space{
+				margin-bottom:5px;
+				padding:5px;
+			}
+			.btn{
+				background-color:orange;
+				padding:5px 30px 5px 15px;
+				font-weight:bold;
+				color:#ffffff;
+				background-image:url(send.png);
+				background-position: 50px 2px;	
+				background-repeat: no-repeat;  
+				background-size: 20px 20px
+			}
+			.text{
+				paddding:10px;
+			}
+			label{
+				font-weight:bold;
+			}
+			.input{
+				width:275px;
+				border-radius:2px;
+				border:0;
+				margin-left:10px;
+				background-position: 5px 5px;	
+				background-repeat: no-repeat; 
+				padding: 8px 15px 8px 30px; 
+				background-size: 20px 20px
+			}
+			
+		</style>
+	</head>
+<body style=background-color:#DCDCDC>
+<div><h1>Contact Us Today!</h1></div>
+<hr>
+<center>
+<div><form>
+	<div class="space">
+		<label for="">First Name</label>
+		<input type="textbox" placeholder="First Name" class="input" style="background-image:url(name.png)">
+	</div>
+	<div class="space">
+		<label for="">Last Name</label>
+		<input type="textbox" placeholder="Last Name" class="input" style="background-image:url(name.png)">
+	</div>
+	<div class="space">
+		<label for="">E-Mail</label> 
+		<input type="email" placeholder="E-Mail Address" class="input" style="background-image:url(email.png)">
+	</div>
+	<div class="space">
+		<label for="">Phone #</label> 
+		<input type="tel" placeholder="(845)555-1212" class="input" style="background-image:url(phone.png)">
+	</div>
+	<div class="space">
+		<label for="">Address</label> 
+		<input type="textbox" placeholder="Address" class="input" style="background-image:url(home.png)">
+	</div>
+	<div class="space">
+		<label for="">City</label> 
+		<input type="textbox" placeholder="City" class="input" style="background-image:url(home.png)">
+	</div>
+	<div class="space">
+		<label for="">State 
+		<select class="input" style="background-image:url(list.png)">
+			<option>Please Select Your State</option>
+		</select>
+	</div>
+	<div class="space">
+		<label for="">Zip Code</label> 
+		<input type="number" min="0" max="6" placeholder="Zip Code" class="input" style="background-image:url(home.png)">
+	</div>
+	<div class="space">
+		<label for="">Website or domain name</label> 
+		<input type="url" placeholder="Website or domian name" class="input" style="background-image:url(earth.png)">
+	</div>
+	<div class="space">
+		<label for="">Do you have hosting?</label> 
+		<input type="radio" name="hosting" value="yes">Yes
+		<input type="radio" name="hosting" value="no">No
+	</div>
+	<div class="space">
+		<label for=""> Project Description</label>
+		<textarea rows="2" cols="20" placeholder="Project Description" class="input" style="background-image:url(pencil.jpg)"></textarea>
+	</div>
+	<div class="space">
+		<button class="btn">
+			Send
+		</button>
+	</div>
+</form></div>
+</body>
+</html>
