@@ -54,7 +54,7 @@
 <body>
 <div class="line">
 	<div>
-		<img src="H:\Internship\Week 1\HTML-5_Logo.png" class="img">
+		<img src=".\HTML-5_Logo.png" class="img">
 	</div>
 	<div class="list">
 		<ul>
@@ -71,7 +71,7 @@
 <center>
 <div class="para">
 	<div class="imgs">
-		<img src="H:\Internship\Week 1\HTML5.jpg">
+		<img src=".\HTML5.jpg">
 	</div>
 	<div>
 		<h1>What we work?</h1>
@@ -92,9 +92,9 @@
 		<h1>How it works?</h1>
 	</div>
 	<div>
-		<img src="H:\Internship\Week 1\HTML-5_Logo.png" class="td">
-		<img src="H:\Internship\Week 1\HTML-5_Logo.png" class="td">
-		<img src="H:\Internship\Week 1\HTML-5_Logo.png" class="td">
+		<img src=".\HTML-5_Logo.png" class="td">
+		<img src=".\HTML-5_Logo.png" class="td">
+		<img src=".\HTML-5_Logo.png" class="td">
 	</div>
 	<div>
 		<h2 class="name">Name 1</h2>
