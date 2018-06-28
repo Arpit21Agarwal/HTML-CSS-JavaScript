@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<title>Assignment 2</title>
+		<style>
+			.img{
+				padding:30px;
+				float:left;
+				height:100px;
+				width:100px;
+			}
+			.list{
+				list-style-type:none;
+				float:right;
+				padding:30px
+			}
+			li{
+				display:inline;
+				padding:2px
+			}
+			.line{
+				display:inline;			
+			}
+            .contact{
+                height:300px;
+                width:750px;
+				padding:10px;
+            }
+			.forms{
+				width:30px;
+				margin-bottom:10px;
+				display:inline;
+				padding:10px;
+			}
+			.paddings{
+				margin-bottom:10px;
+			}
+			.message{
+				padding:20px 2px;
+			}
+		</style>
+	</head>
+<body>
+<div class="line">
+	<div>
+	<div>
+		<img src=".\HTML-5_Logo.png" class="img">
+	</div>
+	<div class="list">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="product.html">Product</a></li>
+			<li><a href="gallery.html">Gallery</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	</div>
+</div>
+<br><br><br><br><br><br><br><br><br>
+<hr>
+<center>
+<div>
+	<img src=".\contact_us_banner1.jpg" class="contact">
+</div>
+<form>
+	<div class="forms">
+		<label for"">Name</label>
+		<input tpye="text" class="paddings"><br>
+	</div>
+	<div class="forms">
+		<label for"">Email</label>
+		<input type="email" class="paddings"><br>
+	</div>
+	<div class="forms">
+		<label for="">City</label>
+		<select class="paddings">
+			<option>
+				Jaipur
+			</option>
+		</select><br>
+	</div>
+	<div class="forms">
+		<label for"">Organisation</label>
+		<input type="text" class="paddings"><br>
+	</div>
+	<div class="forms">
+		<label for"">Phone Number</label>
+		<input type=tel class="paddings"><br>
+	</div>
+	<div class="forms">
+		<label for"" class="message">Message</label>
+		<textarea rows=5 cols=20 class="paddings"></textarea><br>
+	</div>
+	<div>
+		<button type="submit">
+			Submit
+		</button>
+	</div>
+</form>
+</center>
+</body>
+</html>
